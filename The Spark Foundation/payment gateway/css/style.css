@@ -1,0 +1,338 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url(/images/Charity.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    justify-content: space-between;
+
+}
+
+nav .logo h3 {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav ul li ::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(21, 224, 235);
+    position: absolute;
+    left: 30px;
+    bottom: -10px;
+    transition: all 0.4s ease 0s;
+}
+
+nav li a:hover {
+    color: rgb(147, 239, 244);
+}
+
+nav li a:hover::after {
+
+    transition: all 0.4s ease 0s;
+    width: 59%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 20px;
+    font-family: 'Kalam', cursive;
+}
+
+button {
+    background:transparent;  
+}
+button a{
+  
+    width: 500px;
+    height: 80px;
+    border: 2px solid rgb(21, 224, 235);
+    border-radius: 45px;
+    margin: 18px;
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    transition: .4s;
+    cursor: pointer;
+
+}
+button a:hover{
+    color: rgb(21, 224, 235);
+}
+button:hover {
+    color: rgb(21, 224, 235);
+    border-radius: 60px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+body {
+	  background:#2d3b36 url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg)no-repeat center center fixed;
+  	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+    padding-top: 0px;
+}
+
+h1 {
+   color: #fff; 
+   text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+   padding-top: 30px;
+   font-size: 100px; 
+   font-weight: 700;
+   text-align: center;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin: 0px;
+}
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 965px;
+    height: 450px;
+    padding:30px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    overflow: hidden; 
+}
+
+textarea{
+	  background: rgba(0, 0, 0, 0.4); 
+    width: 894px;
+    height: 110px;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 45px;
+    padding-right: 20px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+select {
+    width: 960px;
+    height: 48px;
+    line-height: 1.5;
+    font-size: 1.4em;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -mox-border-radius: 10px;
+    color: #fff;
+    display: block;
+    background: transparent;
+    background-color: rgba(0,0,0,.4);
+    margin-bottom: 20px;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.nameinput, .emailinput, .phoneinput {
+    width: 894px;
+    height: 48px;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+input.nameinput {
+	  background: rgba(0, 0, 0, 0.4); 
+	  padding-left: 45px;
+}
+
+input.emailinput {
+	  background: rgba(0, 0, 0, 0.4);
+	  padding-left: 45px;
+}
+input.phoneinput {
+	  background: rgba(0, 0, 0, 0.4);
+	  padding-left: 45px;
+}
+
+input.message {
+	  background: rgba(0, 0, 0, 0.4);
+	  padding-left: 45px;
+}
+
+select.indent {
+	  padding-left: 45px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	  color: #fff;
+}
+
+:-moz-placeholder{ 
+    color: #fff; 
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {  
+	  color: #fff; 
+}
+
+input:focus, textarea:focus { 
+	  background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+	  overflow: hidden; 
+}
+
+.btn {
+	border: none;
+	font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  width: 200px;
+  height: 48px;
+	color: #000;
+	background: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	position: relative;
+  outline: none;
+  box-shadow: 0 6px #cecece;
+  border-radius: 5px;
+  float: right;
+  margin-right: 6px;
+}
+
+.btn:hover {
+	background: #fff;
+  outline: none;
+  box-shadow: 0 4px #cecece;
+	top: 2px;
+}
+
+.btn:active {
+	background: #fff;
+  outline: none;
+  box-shadow: 0 0 #cecece;
+	top: 6px;
+}
+
+.flat {
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	outline: none;
+  position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.flat:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+	font-size: 140%;
+	width: 60px;
+}
+
+
+.flat {
+   width: 960px !important;
+   height: 48px;
+   overflow: hidden;
+   margin-bottom: 20px;
+   background: url(http://www.jordancundiff.com/wp-content/uploads/2014/03/icon-dropdown.png) no-repeat right;
+   }
+
